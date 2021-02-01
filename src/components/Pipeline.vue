@@ -65,7 +65,7 @@ export default {
     // Starting Point in y axis
     y: {
       type: Number,
-      default: 55
+      default: 60
     },
     // Gap between nodes in x axis
     xstep: {
