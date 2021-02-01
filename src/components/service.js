@@ -194,7 +194,6 @@ class Pipeline {
       let parents = this.findParents(i);
       let children = this.findChildren(i);
       // eslint-disable-next-line no-console
-      console.log(parents, children);
       let startx = Math.max(...parents.map((item) => this.nodes[item].x));
       let endx = Math.min(...children.map((item) => this.nodes[item].x));
       node.x = (startx + endx) / 2;
